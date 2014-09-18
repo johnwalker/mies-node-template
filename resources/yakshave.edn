@@ -1,0 +1,7 @@
+{:renderer "mies-node"
+ :files [["project.clj" "project.clj"]
+         ["src/{{sanitized}}/core.cljs" "core.cljs"]
+         ["run.js" "run.js"]
+         [".gitignore" "gitignore"]]
+ :data {:name [:identity]
+        :sanitized [:name-to-path]}}
